@@ -1,0 +1,29 @@
+{
+  "name": "@jskubkot/test-lib-jk",
+  "version": "1.0.0",
+  "description": "A set of JS utils",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubkot/test-lib-jk.git"
+  },
+  "keywords": [
+    "test-lib",
+    "jakubkot"
+  ],
+  "author": "Jakub Kot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakubkot/test-lib-jk/issues"
+  },
+  "homepage": "https://github.com/jakubkot/test-lib-jk#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
